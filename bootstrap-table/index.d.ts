@@ -7,6 +7,7 @@
 
 interface JQuery {
     bootstrapTable(options?: any): JQuery;
+    bootstrapTable(funcname: string; params?: any): JQuery;
 }
 
 declare var bootstrapTable: JQueryStatic;
